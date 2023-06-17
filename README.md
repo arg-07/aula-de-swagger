@@ -19,6 +19,9 @@ Esse repositório é para guardar e compartilhar meus códigos da tecnologia swa
 5. Códigos Básicos:
 * Informações iniciais da sua documentação:
 
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/77fb29ee-397c-4d5c-b96c-25d94b244268)
+
+
 ```
 openapi: 3.0.1
 info:
@@ -39,12 +42,19 @@ externalDocs:
   
 ```
 * Servidor
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/8251d29b-48bb-4298-b644-21fb4a3bcd6c)
+
+
 ```
 servers:
 - url: https://6096015d116f3f00174b29ba.mockapi.io/
   description: API de Test
 ```
 * EndPoint - GET - especialidades (Realiza consulta generica)
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/851714d5-74e7-4f35-8ef1-0fdaf5f6de68)
+
 ```
 paths:
   /especialidades:
@@ -65,6 +75,9 @@ paths:
 ```
 
 * EndPoint - POST - especialidades (Adiciona informações sem ID Fixo)
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/8c0cbd58-b2a4-4b97-91cf-c5e28ac716be)
+
 
 ```
     post:
@@ -91,6 +104,9 @@ paths:
                     type: string
 ```
 * EndPoint - GET ID - especialidades (Realiza uma consulta generica de modo especifico pelo ID)
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/7c1a5880-60ac-4716-b8f3-d3f4274df9e2)
+
 
 ```
 /especialidades/{id}:
@@ -122,6 +138,9 @@ paths:
 ```
 * EndPoint - POST ID - especialidades (Adiciona informações com ID fixo)
 
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/56d99c98-7a6d-407d-8367-a74bf07dde5d)
+
+
 ```
 post:
       summary: adiciona informações com id fixo
@@ -148,6 +167,9 @@ post:
 ```
 * EndPoint - DELETE - especialidades (Deleta informações)
 
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/a6125f9e-7b92-48a1-a16e-820981512984)
+
+
 ```
     delete:
       summary: delete informações
@@ -159,6 +181,9 @@ post:
               example: 200 - apagado com sucesso
 ```
 * EndPoint - PUT - especialidades (Atualiza informações informações)
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/23586d15-dae1-412e-a013-d70983bf5435)
+
 
 ```
 put:
@@ -187,6 +212,9 @@ put:
           description: Cadastro não encontrado na base de dados
 ```
 * Código YML completo contendo todos os EndPoints
+
+![image](https://github.com/arg-07/aula-de-swagger/assets/77308865/68095917-301a-4025-be92-2afbeb0b57c8)
+
 
 ```
 openapi: 3.0.1
