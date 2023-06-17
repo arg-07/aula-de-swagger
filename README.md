@@ -1,13 +1,13 @@
 # Swagger
 Esse repositório é para guardar e compartilhar meus códigos da tecnologia swagger
 
-* Repositório contendo documentação da API de Teste:
+* Repositório contendo documentação de uma API para Testes:
 
 ` https://github.com/escoladedevs/postman-em-1-hora `
 
 * URL da API de Teste:
 
-`https://simple-books-api.glitch.me`
+`https://6096015d116f3f00174b29ba.mockapi.io`
 
 * Conceitos básicos swagger:
 1. URL: `https://Swagger.io`
